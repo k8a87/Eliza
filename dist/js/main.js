@@ -13,7 +13,6 @@ function toggleMenu(){
         nav.classList.add('open');
         menuNav.classList.add('open');
         navItems.forEach( item => item.classList.add('open'));
-        navItems.forEach( item => item.classList.add('active'));
 
 
         showMenu=true;
