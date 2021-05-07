@@ -65,7 +65,7 @@
 
   .menu-nav {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
