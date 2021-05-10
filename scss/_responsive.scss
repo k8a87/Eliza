@@ -36,6 +36,9 @@
   .projects {
     &__bio-image {
       height: 40vh;
+      .text-secondary {
+        margin-bottom: 4rem;
+      }
     }
 
     &__items {
@@ -50,5 +53,26 @@
     &__list {
       grid-template-columns: repeat(2, 1fr);
     }
+  }
+}
+
+@include media-lg {
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact {
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@include media-xl {
+  .projects__bio-image {
+    height: 50vh;
+  }
+
+  .about .jobs {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
